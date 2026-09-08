@@ -17,7 +17,7 @@ public:
     const vec3& direction() const { return dir; }
 
     point3 at(double t) const {
-        return  orig + t*dir;
+        return  orig + t * dir;
     }
 
 private:
