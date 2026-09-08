@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 4.3)
-project(raytracing)
+project(ray_tracing)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(raytracing main.cpp
+add_executable(ray_tracing main.cpp
         vec3.h
         color.h
         ray.h
