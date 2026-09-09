@@ -13,4 +13,9 @@ add_executable(ray_tracing main.cpp
         rtweekend.h
         interval.h
         camera.h
-        material.h)
+        material.h
+        aabb.h
+        bvh.h
+        texture.h
+        rtw_stb_image.h
+        perlin.h)
