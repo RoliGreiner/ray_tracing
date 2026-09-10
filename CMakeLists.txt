@@ -18,4 +18,5 @@ add_executable(ray_tracing main.cpp
         bvh.h
         texture.h
         rtw_stb_image.h
-        perlin.h)
+        perlin.h
+        quad.h)
